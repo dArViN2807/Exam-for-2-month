@@ -1,0 +1,984 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.General .Container main .page-3 .card button, .General .Container main .page-1 .button button, .General .Container header .header-right .header-right-button button {
+  background-color: #fcb72b;
+  border: none;
+  padding: 14px 39px;
+}
+.General .Container main .page-3 .card button a, .General .Container main .page-1 .button button a, .General .Container header .header-right .header-right-button button a {
+  color: white;
+  text-decoration: none;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.General .Container main .page-3 .card h1 {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.General .Container main .page-3 .card p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+@font-face {
+  font-family: "SpaceMono";
+  src: url(/Fonts/SpaceMono-Regular.ttf);
+}
+@font-face {
+  font-family: "Lexend Deca";
+  src: url(/Fonts/LexendDeca-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(/Fonts/Poppins-Regular.ttf);
+}
+.General {
+  width: 100%;
+}
+.General .Container {
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+}
+.General .Container header {
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px #fafafa;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  padding-left: 169px;
+  padding-top: 50px;
+  padding-right: 165px;
+  gap: 511px;
+  align-items: center;
+  justify-content: center;
+}
+.General .Container header .header-left {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.General .Container header .header-left .header-links {
+  display: flex;
+  gap: 32px;
+}
+.General .Container header .header-left .header-links a {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #939caa;
+  text-decoration: none;
+}
+.General .Container header .header-left .header-links a:hover {
+  color: black;
+  background-color: white;
+}
+.General .Container main {
+  margin-top: 130px;
+  margin-bottom: 450px;
+}
+.General .Container main .page-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+  padding-top: 163px;
+  padding-left: 0px;
+  padding-bottom: 162px;
+  background-image: linear-gradient(to bottom, rgba(34, 52, 157, 0.52), rgba(34, 52, 157, 0.52)), url(/images/Bg-1.png);
+  background-position: center;
+  background-size: cover;
+}
+.General .Container main .page-1 .page-1-heading {
+  padding-left: 163px;
+}
+.General .Container main .page-1 .page-1-heading h1 {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: 2.5px;
+  color: #ffffff;
+}
+.General .Container main .page-1 .Lines {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+}
+.General .Container main .page-1 .Lines p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  width: 435px;
+  position: relative;
+}
+.General .Container main .page-1 .Lines .page-1-2-line {
+  position: absolute;
+  left: 740px;
+  top: 470px;
+}
+.General .Container main .page-1 .button {
+  padding-left: 260px;
+}
+.General .Container main .page-2 {
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+}
+.General .Container main .page-2 .page-2-upper {
+  display: flex;
+}
+.General .Container main .page-2 .page-2-upper .line {
+  position: relative;
+  top: 35px;
+}
+.General .Container main .page-2 .page-2-upper .page-2-1 {
+  z-index: 40;
+  position: absolute;
+  left: 165px;
+}
+.General .Container main .page-2 .page-2-upper .page-2-2 {
+  z-index: 40;
+  position: absolute;
+  left: 545px;
+}
+.General .Container main .page-2 .page-2-upper .page-2-3 {
+  z-index: 40;
+  position: absolute;
+  left: 925px;
+}
+.General .Container main .page-2 .page-2-lower {
+  margin-top: 140px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 30px;
+  padding-left: 115px;
+}
+.General .Container main .page-2 .page-2-lower .page-2-text {
+  width: 350px;
+}
+.General .Container main .page-2 .page-2-lower .page-2-text h1 {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.General .Container main .page-2 .page-2-lower .page-2-text p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+.General .Container main .page-3 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 55px;
+  gap: 280px;
+  padding-right: 55px;
+}
+.General .Container main .page-3 .card {
+  gap: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.General .Container main .page-3 .card .page-3-text {
+  width: 40%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 40px;
+}
+.General .Container main .page-3 .card .page-3-image {
+  width: 50%;
+  height: 300px;
+  position: relative;
+}
+.General .Container main .page-3 .card .page-3-image .page-3-image-line {
+  position: absolute;
+  top: 300px;
+  right: -90px;
+}
+.General .Container main .page-3 .card .page-3-image .round {
+  position: absolute;
+  left: 400px;
+  display: none;
+}
+.General .Container main .page-3 .card .page-3-image .image-1 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: url(/images/Image1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.General .Container main .page-3 .card2 {
+  gap: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.General .Container main .page-3 .card2 .page-3-text {
+  padding-top: 100px;
+  width: 40%;
+}
+.General .Container main .page-3 .card2 .page-3-image .image-2 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: url(/images/Image2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.General .Container main .page-3 .card2 .page-3-image .image-2 .page-3-image-line2 {
+  position: absolute;
+  top: 30px;
+  left: -210px;
+}
+.General .Container main .page-3 .card3 {
+  gap: 280px;
+  align-items: center;
+  justify-content: center;
+}
+.General .Container main .page-3 .card3 .page-3-image .image-3 {
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  background-image: url(/images/Image3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.General .Container main .page-3 .card3 .page-3-image .image-3 .page-3-image-line3 {
+  position: absolute;
+  right: -420px;
+  top: 80px;
+}
+.General .Container main .page-3 .card3 .page-3-image .page-3-text {
+  width: 40%;
+}
+.General .Container footer {
+  display: flex;
+  flex-direction: column;
+}
+.General .Container footer .footer-upper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #495567;
+  gap: 388px;
+  padding-right: 55px;
+  padding-left: 95px;
+  padding-top: 102px;
+  padding-bottom: 102px;
+}
+.General .Container footer .footer-upper .footer-Mask1 {
+  position: absolute;
+  bottom: 0px;
+  left: 1100px;
+}
+.General .Container footer .footer-upper .footer-Mask2 {
+  position: absolute;
+  bottom: 0px;
+  left: 700px;
+}
+.General .Container footer .footer-upper .footer-Mask3 {
+  left: 300px;
+  bottom: 0px;
+  position: absolute;
+}
+.General .Container footer .footer-upper .heading-footer {
+  width: 50%;
+}
+.General .Container footer .footer-upper .heading-footer h1 {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #ffffff;
+}
+.General .Container footer .footer-upper .links-download {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.General .Container footer .footer-upper .links-download .Apple {
+  background: #e5ecf4;
+  border-radius: 4px;
+  display: flex;
+  padding: 8px 2px;
+  gap: 5px;
+}
+.General .Container footer .footer-upper .links-download .Apple .Apple-Text {
+  display: flex;
+  flex-direction: column;
+}
+.General .Container footer .footer-upper .links-download .Apple .Apple-Text h1 {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.892857px;
+  color: #495567;
+}
+.General .Container footer .footer-upper .links-download .Apple .Apple-Text p {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.446429px;
+  color: #495567;
+}
+.General .Container footer .footer-upper .links-download .GooglePlay {
+  background: #e5ecf4;
+  border-radius: 4px;
+  display: flex;
+  padding: 8px 2px;
+  gap: 5px;
+  width: 160px;
+}
+.General .Container footer .footer-upper .links-download .GooglePlay .Google-Text h1 {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.892857px;
+  color: #495567;
+}
+.General .Container footer .footer-upper .links-download .GooglePlay .Google-Text p {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.446429px;
+  color: #495567;
+}
+.General .Container footer .footer-lower {
+  background: #333a44;
+  display: flex;
+  padding-left: 95px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 95px;
+  align-items: center;
+  justify-content: space-between;
+}
+.General .Container footer .footer-lower .footer-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.General .Container footer .footer-lower .footer-left .footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.General .Container footer .footer-lower .footer-left .footer-links a {
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+  text-decoration: none;
+}
+.General .Container footer .footer-lower .footer-left .footer-links a:hover {
+  color: #fff;
+  transition: all ease-in 0.5s;
+}
+.General .Container footer .footer-lower .footer-left a:hover {
+  background-color: blue;
+  transition: all ease-in 0.6s;
+}
+.General .Container footer .footer-lower .footer-right .media {
+  display: flex;
+  gap: 20px;
+}
+
+@media (min-width: 1400px) {
+  .General {
+    width: 100%;
+  }
+  .General .Container {
+    width: 100%;
+  }
+}
+@media (min-width: 1196px) and (max-width: 1399px) {
+  .General {
+    width: 100%;
+  }
+  .General .Container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .General .Container .page-3 .card-1 {
+    gap: 290px;
+  }
+  .General .Container .page-3 .card-1 .page-3-text {
+    padding-left: 150px;
+  }
+  .General .Container .page-3 .card {
+    gap: 280px;
+  }
+}
+@media (min-width: 682px) and (max-width: 1195px) {
+  .General {
+    width: 100%;
+  }
+  .General .Container {
+    width: 100%;
+  }
+  .General .Container header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 10px 15px;
+    position: fixed;
+  }
+  .General .Container header .header-left {
+    gap: 10px;
+  }
+  .General .Container header .header-left .header-links a {
+    font-size: 14px;
+  }
+  .General .Container main {
+    margin-bottom: 50px;
+  }
+  .General .Container main .page-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .General .Container main .page-1 .page-1-heading {
+    padding-left: 10px;
+  }
+  .General .Container main .page-1 .page-1-heading h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .General .Container main .page-1 .Lines p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .General .Container main .page-1 .Lines img {
+    display: none;
+  }
+  .General .Container main .page-1 .button {
+    padding-left: 0px;
+  }
+  .General .Container main .page-1 .button button {
+    font-size: 10px;
+  }
+  .General .Container main .page-2 {
+    margin-top: 30px;
+    overflow: hidden;
+    flex-direction: row;
+  }
+  .General .Container main .page-2 .page-2-upper {
+    flex-direction: row;
+    transform: rotate(90deg);
+  }
+  .General .Container main .page-2 .page-2-upper .line {
+    width: 20px;
+    height: 500px;
+    transform: rotate(90deg);
+    top: -150px;
+    z-index: 90;
+  }
+  .General .Container main .page-2 .page-2-upper .page-2-1 {
+    left: -230px;
+    top: 50px;
+  }
+  .General .Container main .page-2 .page-2-upper .page-2-2 {
+    left: -100px;
+    top: 50px;
+  }
+  .General .Container main .page-2 .page-2-upper .page-2-3 {
+    left: 30px;
+    top: 50px;
+  }
+  .General .Container main .page-2 .page-2-lower {
+    flex-direction: column;
+    margin-left: 140px;
+    margin-top: 20px;
+  }
+  .General .Container main .page-3 {
+    gap: 50px;
+    margin-top: 40px;
+  }
+  .General .Container main .page-3 .card {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .General .Container main .page-3 .card-1 {
+    flex-direction: column-reverse;
+  }
+  .General .Container main .page-3 .card-1 .page-3-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url(/images/Image1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .General .Container main .page-3 .card-1 .page-3-image img {
+    display: none;
+    position: absolute;
+  }
+  .General .Container main .page-3 .card-1 .page-3-image .image-1 {
+    display: none;
+  }
+  .General .Container main .page-3 .card-1 .page-3-image .image-1 .page-3-image-line {
+    position: absolute;
+    display: block;
+  }
+  .General .Container main .page-3 .card-1 .page-3-text {
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .General .Container main .page-3 .card-1 .page-3-text h1 {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card-1 .page-3-text p {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card2 {
+    flex-direction: column;
+  }
+  .General .Container main .page-3 .card2 .page-3-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url(/images/Image2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .General .Container main .page-3 .card2 .page-3-image img {
+    display: none;
+    position: absolute;
+  }
+  .General .Container main .page-3 .card2 .page-3-image .image-2 {
+    display: none;
+  }
+  .General .Container main .page-3 .card2 .page-3-image .image-2 .page-3-image-line {
+    position: absolute;
+    display: block;
+  }
+  .General .Container main .page-3 .card2 .page-3-text {
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .General .Container main .page-3 .card2 .page-3-text h1 {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card2 .page-3-text p {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card3 {
+    flex-direction: column-reverse;
+  }
+  .General .Container main .page-3 .card3 .page-3-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url(/images/Image3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .General .Container main .page-3 .card3 .page-3-image img {
+    display: none;
+    position: absolute;
+  }
+  .General .Container main .page-3 .card3 .page-3-image .image-3 {
+    display: none;
+  }
+  .General .Container main .page-3 .card3 .page-3-image .image-3 .page-3-image-line {
+    position: absolute;
+    display: block;
+  }
+  .General .Container main .page-3 .card3 .page-3-text {
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .General .Container main .page-3 .card3 .page-3-text h1 {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card3 .page-3-text p {
+    text-align: center;
+  }
+  .General .Container footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .General .Container footer .footer-upper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .General .Container footer .footer-upper .footer-Mask1 {
+    left: 0px;
+  }
+  .General .Container footer .footer-upper .footer-Mask2 {
+    display: none;
+  }
+  .General .Container footer .footer-upper .footer-Mask3 {
+    left: 300px;
+  }
+  .General .Container footer .footer-lower {
+    gap: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 683px) {
+  .General {
+    width: 100%;
+  }
+  .General .Container {
+    padding: 5px;
+    width: 100%;
+  }
+  .General .Container header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 10px 15px;
+    position: fixed;
+  }
+  .General .Container header .header-left {
+    gap: 10px;
+  }
+  .General .Container header .header-left .header-links {
+    display: none;
+  }
+  .General .Container header .header-left .header-links a {
+    font-size: 14px;
+  }
+  .General .Container main {
+    margin-bottom: 50px;
+  }
+  .General .Container main .page-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .General .Container main .page-1 .page-1-heading {
+    padding-left: 10px;
+  }
+  .General .Container main .page-1 .page-1-heading h1 {
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .General .Container main .page-1 .Lines p {
+    font-size: 10px;
+    text-align: center;
+    line-height: 12px;
+    width: 100%;
+    padding: 0 auto;
+  }
+  .General .Container main .page-1 .Lines img {
+    display: none;
+  }
+  .General .Container main .page-1 .button {
+    padding-left: 0px;
+  }
+  .General .Container main .page-1 .button button {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+  .General .Container main .page-1 .button button a {
+    font-size: 14px;
+  }
+  .General .Container main .page-2 {
+    margin-top: 20px;
+    overflow: hidden;
+    flex-direction: row;
+  }
+  .General .Container main .page-2 .page-2-upper {
+    display: none;
+    flex-direction: column;
+  }
+  .General .Container main .page-2 .page-2-upper .line {
+    width: 20px;
+    height: 500px;
+    transform: rotate(90deg);
+    top: -150px;
+    z-index: 90;
+  }
+  .General .Container main .page-2 .page-2-upper .page-2-1 {
+    left: -230px;
+    top: 50px;
+    display: none;
+    position: absolute;
+  }
+  .General .Container main .page-2 .page-2-upper .page-2-2 {
+    left: -100px;
+    top: 50px;
+    display: none;
+    position: absolute;
+  }
+  .General .Container main .page-2 .page-2-upper .page-2-3 {
+    display: none;
+    position: absolute;
+  }
+  .General .Container main .page-2 .page-2-lower {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+  .General .Container main .page-2 .page-2-lower .page-2-text {
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+  }
+  .General .Container main .page-2 .page-2-lower .page-2-text h1 {
+    font-size: 25px;
+  }
+  .General .Container main .page-2 .page-2-lower .page-2-text p {
+    font-size: 18px;
+  }
+  .General .Container main .page-3 {
+    gap: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+  }
+  .General .Container main .page-3 .card {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .General .Container main .page-3 .card .page-3-text {
+    gap: 5px;
+  }
+  .General .Container main .page-3 .card .page-3-text h1 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .General .Container main .page-3 .card .page-3-image {
+    width: 300px;
+    height: 300px;
+  }
+  .General .Container main .page-3 .card-1 {
+    flex-direction: column-reverse;
+  }
+  .General .Container main .page-3 .card-1 .page-3-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(/images/Image1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .General .Container main .page-3 .card-1 .page-3-image img {
+    display: none;
+    position: absolute;
+  }
+  .General .Container main .page-3 .card-1 .page-3-image .image-1 {
+    display: none;
+  }
+  .General .Container main .page-3 .card-1 .page-3-image .image-1 .page-3-image-line {
+    position: absolute;
+    display: block;
+  }
+  .General .Container main .page-3 .card-1 .page-3-text {
+    padding-top: 10px;
+    position: relative;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .General .Container main .page-3 .card-1 .page-3-text h1 {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card-1 .page-3-text p {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card2 {
+    flex-direction: column;
+  }
+  .General .Container main .page-3 .card2 .page-3-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(/images/Image2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .General .Container main .page-3 .card2 .page-3-image img {
+    display: none;
+    position: absolute;
+  }
+  .General .Container main .page-3 .card2 .page-3-image .image-2 {
+    display: none;
+  }
+  .General .Container main .page-3 .card2 .page-3-image .image-2 .page-3-image-line {
+    position: absolute;
+    display: block;
+  }
+  .General .Container main .page-3 .card2 .page-3-text {
+    padding-top: 10px;
+    position: relative;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .General .Container main .page-3 .card2 .page-3-text h1 {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card2 .page-3-text p {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card3 {
+    flex-direction: column-reverse;
+  }
+  .General .Container main .page-3 .card3 .page-3-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(/images/Image3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .General .Container main .page-3 .card3 .page-3-image img {
+    display: none;
+    position: absolute;
+  }
+  .General .Container main .page-3 .card3 .page-3-image .image-3 {
+    display: none;
+  }
+  .General .Container main .page-3 .card3 .page-3-image .image-3 .page-3-image-line {
+    position: absolute;
+    display: block;
+  }
+  .General .Container main .page-3 .card3 .page-3-text {
+    padding-top: 10px;
+    position: relative;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .General .Container main .page-3 .card3 .page-3-text h1 {
+    text-align: center;
+  }
+  .General .Container main .page-3 .card3 .page-3-text p {
+    text-align: center;
+  }
+  .General .Container footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .General .Container footer .footer-upper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .General .Container footer .footer-upper .footer-Mask1 {
+    left: -50px;
+  }
+  .General .Container footer .footer-upper .footer-Mask2 {
+    display: none;
+  }
+  .General .Container footer .footer-upper .footer-Mask3 {
+    left: 250px;
+  }
+  .General .Container footer .footer-upper .heading-footer {
+    width: 100%;
+    text-align: center;
+  }
+  .General .Container footer .footer-lower {
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .General .Container footer .footer-lower .footer-left {
+    flex-direction: column;
+  }
+  .General .Container footer .footer-lower .footer-left .footer-links {
+    flex-direction: column;
+  }
+  .General .Container footer .footer-lower .footer-left .footer-links a {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=home.css.map */
